@@ -1,4 +1,4 @@
 # Oblig-1-Gruppe-51
 Gruppe medlemmer 
-Evi 
+Evi oh
 Mina
