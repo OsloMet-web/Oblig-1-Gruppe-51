@@ -1,1 +1,35 @@
+.icon-bar {
+    width: 100%; /* full bredde */
+    background-color: #555; /* Mørke grå bakgrunn */
+    overflow: auto; /* Overløp på grunn av fløting*/
+  }
+  
+  .icon-bar a {
+    float: left; /* Flytende lenker side ved side */
+    text-align: center; /* Senterert tekst */
+    width: 20%; /* bredde */
+    padding: 12px 0; /* Noe topp- og bunnpolstring */
+    color: rgb(242, 237, 237); /* tekst fargen */
+    font-size: 31px; /* skriftstørrelse */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Legg til farge */
+  }
 
+  h1{
+
+  }
+
+  h2{
+    
+  }
+
+  .bunn{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    text-align: left;
+    flex-direction: column;
+    background: linear-gradient(to top right, #a5a2a2, #41403f);
+  }
