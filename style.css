@@ -1,10 +1,10 @@
-.icon-bar {
+.icon-bar{
     width: 100%; /* full bredde */
     background-color: #555; /* Mørke grå bakgrunn */
     overflow: auto; /* Overløp på grunn av fløting*/
   }
   
-  .icon-bar a {
+  .icon-bar a{
     float: left; /* Flytende lenker side ved side */
     text-align: center; /* Senterert tekst */
     width: 20%; /* bredde */
@@ -13,20 +13,19 @@
     font-size: 31px; /* skriftstørrelse */
   }
   
-  .icon-bar a:hover {
+  .icon-bar a:hover{
     background-color: #000; /* Legg til farge */
   }
 
-
   h2{
-    color: #2a3c73;
+    color: #2a3c73; /* farge til under oversikten */
   }
 
   .bunn{
-    width: 100%;
-    display: flex;
-    padding: 15px;
-    text-align: left;
-    flex-direction: column;
-    background: linear-gradient(to top right, #a5a2a2, #41403f);
+    width: 100%; /* full bredde */
+    display: flex; /* Flex kan bygge en dimensjons layout som er bedre enn flytebasert layout */
+    padding: 15px; /* oksmodellen og skaper rom rundt innholdet til et elementer, definerte marger */
+    text-align: left; /* Hvor plassere teksten */
+    flex-direction: column; /* tabell retning kolonne */
+    background: linear-gradient(to top right, #a5a2a2, #41403f); /* bakgrunnsfarge footer */
   }
