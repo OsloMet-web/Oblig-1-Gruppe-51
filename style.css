@@ -3,7 +3,6 @@
     background-color: #555; /* Mørke grå bakgrunn */
     overflow: auto; /* Overløp på grunn av fløting*/
   }
-  
   .icon-bar a{
     float: left; /* Flytende lenker side ved side */
     text-align: center; /* Senterert tekst */
@@ -12,7 +11,6 @@
     color: rgb(242, 237, 237); /* tekst fargen */
     font-size: 31px; /* skriftstørrelse */
   }
-  
   .icon-bar a:hover{
     background-color: #000; /* Legg til farge */
   }
